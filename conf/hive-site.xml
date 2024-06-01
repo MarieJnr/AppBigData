@@ -1,0 +1,20 @@
+<configuration>
+    <property>
+        <name>hive.execution.engine</name>
+        <value>spark</value>
+    </property>
+    <property>
+        <name>spark.master</name>
+        <value>yarn</value>
+    </property>
+    <property>
+        <name>spark.driver.extraClassPath</name>
+        <value>/opt/spark/jars/scala-library-2.12.10.jar:/opt/hive/lib/*</value>
+    </property>
+    <property>
+        <name>spark.executor.extraClassPath</name>
+        <value>/opt/spark/jars/scala-library-2.12.10.jar:/opt/hive/lib/*</value>
+    </property>
+</configuration>
+
+

@@ -1,0 +1,125 @@
+[2023-06-05 14:39:56,758] {processor.py:153} INFO - Started process (PID=578) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:39:56,760] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:39:56,761] {logging_mixin.py:115} INFO - [2023-06-05 14:39:56,761] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:39:56,800] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:39:56,836] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.083 seconds
+[2023-06-05 14:40:55,480] {processor.py:153} INFO - Started process (PID=595) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:40:55,486] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:40:55,488] {logging_mixin.py:115} INFO - [2023-06-05 14:40:55,488] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:40:55,853] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:40:55,948] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.475 seconds
+[2023-06-05 14:41:28,726] {processor.py:153} INFO - Started process (PID=615) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:41:28,727] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:41:28,729] {logging_mixin.py:115} INFO - [2023-06-05 14:41:28,729] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:41:28,759] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:41:28,782] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.064 seconds
+[2023-06-05 14:42:20,813] {processor.py:153} INFO - Started process (PID=634) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:42:20,823] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:42:20,829] {logging_mixin.py:115} INFO - [2023-06-05 14:42:20,829] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:42:22,844] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:42:34,610] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 15.684 seconds
+[2023-06-05 14:44:22,676] {processor.py:153} INFO - Started process (PID=654) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:44:22,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:44:22,693] {logging_mixin.py:115} INFO - [2023-06-05 14:44:22,693] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:44:22,780] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:44:22,984] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 6.087 seconds
+[2023-06-05 14:44:55,785] {processor.py:153} INFO - Started process (PID=677) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:44:55,787] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:44:55,789] {logging_mixin.py:115} INFO - [2023-06-05 14:44:55,789] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:44:56,173] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:44:56,216] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.438 seconds
+[2023-06-05 14:45:26,646] {processor.py:153} INFO - Started process (PID=696) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:45:26,648] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:45:26,649] {logging_mixin.py:115} INFO - [2023-06-05 14:45:26,649] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:45:26,744] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:45:26,774] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.134 seconds
+[2023-06-05 14:45:57,247] {processor.py:153} INFO - Started process (PID=717) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:45:57,270] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:45:57,273] {logging_mixin.py:115} INFO - [2023-06-05 14:45:57,273] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:45:57,433] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:45:57,462] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.220 seconds
+[2023-06-05 14:46:27,846] {processor.py:153} INFO - Started process (PID=737) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:46:27,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:46:27,861] {logging_mixin.py:115} INFO - [2023-06-05 14:46:27,861] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:46:27,993] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:46:28,058] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.218 seconds
+[2023-06-05 14:47:03,956] {processor.py:153} INFO - Started process (PID=759) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:47:03,987] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:47:04,015] {logging_mixin.py:115} INFO - [2023-06-05 14:47:04,015] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:47:04,894] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:47:04,987] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 1.038 seconds
+[2023-06-05 14:55:52,501] {processor.py:153} INFO - Started process (PID=189) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:55:52,505] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:55:52,506] {logging_mixin.py:115} INFO - [2023-06-05 14:55:52,506] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:55:52,626] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:55:52,655] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.170 seconds
+[2023-06-05 14:56:28,432] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:56:28,513] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:56:28,521] {logging_mixin.py:115} INFO - [2023-06-05 14:56:28,521] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:56:33,336] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:56:33,462] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 5.035 seconds
+[2023-06-05 14:57:04,770] {processor.py:153} INFO - Started process (PID=231) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:57:04,853] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:57:04,903] {logging_mixin.py:115} INFO - [2023-06-05 14:57:04,903] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:57:05,575] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:57:05,638] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.873 seconds
+[2023-06-05 14:57:36,060] {processor.py:153} INFO - Started process (PID=253) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:57:36,062] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:57:36,068] {logging_mixin.py:115} INFO - [2023-06-05 14:57:36,068] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:57:36,148] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:57:36,196] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.141 seconds
+[2023-06-05 14:58:06,515] {processor.py:153} INFO - Started process (PID=273) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:58:06,516] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:58:06,517] {logging_mixin.py:115} INFO - [2023-06-05 14:58:06,517] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:58:06,565] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:58:06,615] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.104 seconds
+[2023-06-05 14:58:37,159] {processor.py:153} INFO - Started process (PID=293) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:58:37,161] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:58:37,162] {logging_mixin.py:115} INFO - [2023-06-05 14:58:37,162] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:58:37,208] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:58:37,236] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.083 seconds
+[2023-06-05 14:59:08,429] {processor.py:153} INFO - Started process (PID=313) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:59:08,434] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:59:08,438] {logging_mixin.py:115} INFO - [2023-06-05 14:59:08,438] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:59:08,477] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:59:08,507] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.083 seconds
+[2023-06-05 14:59:38,948] {processor.py:153} INFO - Started process (PID=333) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:59:38,949] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 14:59:38,951] {logging_mixin.py:115} INFO - [2023-06-05 14:59:38,951] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:59:38,971] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 14:59:39,007] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.065 seconds
+[2023-06-05 15:00:09,387] {processor.py:153} INFO - Started process (PID=353) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:00:09,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 15:00:09,397] {logging_mixin.py:115} INFO - [2023-06-05 15:00:09,397] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:00:09,587] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:00:09,638] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.257 seconds
+[2023-06-05 15:00:54,479] {processor.py:153} INFO - Started process (PID=371) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:00:54,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 15:00:54,508] {logging_mixin.py:115} INFO - [2023-06-05 15:00:54,508] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:00:55,315] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:00:55,461] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 1.025 seconds
+[2023-06-05 15:06:21,996] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:06:22,010] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 15:06:22,012] {logging_mixin.py:115} INFO - [2023-06-05 15:06:22,012] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:06:22,275] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:06:22,296] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.305 seconds
+[2023-06-05 15:07:06,748] {processor.py:153} INFO - Started process (PID=412) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:07:38,580] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 15:07:39,954] {logging_mixin.py:115} INFO - [2023-06-05 15:07:39,954] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:07:40,282] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:07:40,309] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 33.341 seconds
+[2023-06-05 15:08:15,948] {processor.py:153} INFO - Started process (PID=435) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:08:15,963] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 15:08:15,979] {logging_mixin.py:115} INFO - [2023-06-05 15:08:15,979] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:08:16,184] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:08:16,526] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.644 seconds
+[2023-06-05 15:08:50,440] {processor.py:153} INFO - Started process (PID=455) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:08:50,442] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 15:08:50,446] {logging_mixin.py:115} INFO - [2023-06-05 15:08:50,446] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:08:50,914] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:08:51,034] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.624 seconds
+[2023-06-05 15:09:21,303] {processor.py:153} INFO - Started process (PID=474) to work on /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:09:21,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py for tasks to queue
+[2023-06-05 15:09:21,324] {logging_mixin.py:115} INFO - [2023-06-05 15:09:21,324] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:09:21,403] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py
+[2023-06-05 15:09:21,476] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/jupyter-dag-Copy1-checkpoint.py took 0.179 seconds

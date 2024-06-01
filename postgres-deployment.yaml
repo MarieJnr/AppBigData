@@ -1,0 +1,122 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: C:\Windows\System32\kompose.exe convert -f docker-compose.yml
+    kompose.version: 1.24.0 (7c629530)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: postgres
+  name: postgres
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: postgres
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: C:\Windows\System32\kompose.exe convert -f docker-compose.yml
+        kompose.version: 1.24.0 (7c629530)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: postgres
+    spec:
+      containers:
+        - env:
+            - name: AIRFLOW_UID
+              valueFrom:
+                configMapKeyRef:
+                  key: AIRFLOW_UID
+                  name: env
+            - name: AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION
+              valueFrom:
+                configMapKeyRef:
+                  key: AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION
+                  name: env
+            - name: AIRFLOW__CORE__EXECUTOR
+              valueFrom:
+                configMapKeyRef:
+                  key: AIRFLOW__CORE__EXECUTOR
+                  name: env
+            - name: AIRFLOW__CORE__FERNET_KEY
+              valueFrom:
+                configMapKeyRef:
+                  key: AIRFLOW__CORE__FERNET_KEY
+                  name: env
+            - name: AIRFLOW__CORE__LOAD_EXAMPLES
+              valueFrom:
+                configMapKeyRef:
+                  key: AIRFLOW__CORE__LOAD_EXAMPLES
+                  name: env
+            - name: AIRFLOW__DATABASE__LOAD_DEFAULT_CONNECTIONS
+              valueFrom:
+                configMapKeyRef:
+                  key: AIRFLOW__DATABASE__LOAD_DEFAULT_CONNECTIONS
+                  name: env
+            - name: AIRFLOW__DATABASE__SQL_ALCHEMY_CONN
+              valueFrom:
+                configMapKeyRef:
+                  key: AIRFLOW__DATABASE__SQL_ALCHEMY_CONN
+                  name: env
+            - name: HIVE_DB_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  key: HIVE_DB_PASSWORD
+                  name: env
+            - name: POSTGRES_DB
+              valueFrom:
+                configMapKeyRef:
+                  key: POSTGRES_DB
+                  name: env
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  key: POSTGRES_PASSWORD
+                  name: env
+            - name: POSTGRES_USER
+              valueFrom:
+                configMapKeyRef:
+                  key: POSTGRES_USER
+                  name: env
+            - name: SUPERSET_SECRET_KEY
+              valueFrom:
+                configMapKeyRef:
+                  key: SUPERSET_SECRET_KEY
+                  name: env
+            - name: _AIRFLOW_DB_UPGRADE
+              valueFrom:
+                configMapKeyRef:
+                  key: _AIRFLOW_DB_UPGRADE
+                  name: env
+            - name: _AIRFLOW_WWW_USER_CREATE
+              valueFrom:
+                configMapKeyRef:
+                  key: _AIRFLOW_WWW_USER_CREATE
+                  name: env
+            - name: _AIRFLOW_WWW_USER_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  key: _AIRFLOW_WWW_USER_PASSWORD
+                  name: env
+            - name: _AIRFLOW_WWW_USER_USERNAME
+              valueFrom:
+                configMapKeyRef:
+                  key: _AIRFLOW_WWW_USER_USERNAME
+                  name: env
+          image: postgres:13
+          livenessProbe:
+            exec:
+              command:
+                - pg_isready
+                - -U
+                - airflow
+            failureThreshold: 5
+            periodSeconds: 5
+          name: postgres
+          ports:
+            - containerPort: 5432
+          resources: {}
+      restartPolicy: Always
+status: {}

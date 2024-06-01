@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: C:\Windows\System32\kompose.exe convert -f docker-compose.yml
+    kompose.version: 1.24.0 (7c629530)
+  labels:
+    io.kompose.service: jupyter
+  name: jupyter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: jupyter
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        io.kompose.service: jupyter
+    spec:
+      containers:
+        - env:
+            - name: PYSPARK_DRIVER_PYTHON
+              value: ipython
+            - name: PYSPARK_DRIVER_PYTHON_OPTS
+              value: notebook
+            - name: SPARK_MASTER
+              value: spark://spark-master:7077
+            - name: JUPYTER_PORT
+              value: "8888"  # Assurez-vous que c'est un string de numéro uniquement.
+          image: jupyter/pyspark-notebook:latest
+          name: jupyter
+          ports:
+            - containerPort: 8888
+          volumeMounts:
+            - mountPath: /home/jovyan/work
+              name: jupyter-claim0
+      restartPolicy: Always
+      volumes:
+        - name: jupyter-claim0
+          persistentVolumeClaim:
+            claimName: jupyter-claim0

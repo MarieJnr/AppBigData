@@ -1,0 +1,444 @@
+[2023-06-05 14:19:21,892] {processor.py:153} INFO - Started process (PID=193) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:19:21,936] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:19:21,952] {logging_mixin.py:115} INFO - [2023-06-05 14:19:21,952] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:19:26,098] {logging_mixin.py:115} INFO - [2023-06-05 14:19:22,154] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:19:26,528] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:19:31,489] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 9.601 seconds
+[2023-06-05 14:20:02,100] {processor.py:153} INFO - Started process (PID=208) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:20:02,111] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:20:02,114] {logging_mixin.py:115} INFO - [2023-06-05 14:20:02,114] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:20:02,479] {logging_mixin.py:115} INFO - [2023-06-05 14:20:02,473] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:20:02,493] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:20:02,687] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.621 seconds
+[2023-06-05 14:20:35,290] {processor.py:153} INFO - Started process (PID=224) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:20:35,311] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:20:35,312] {logging_mixin.py:115} INFO - [2023-06-05 14:20:35,312] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:20:35,354] {logging_mixin.py:115} INFO - [2023-06-05 14:20:35,353] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:20:35,363] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:20:41,173] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 5.887 seconds
+[2023-06-05 14:21:17,880] {processor.py:153} INFO - Started process (PID=239) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:21:17,883] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:21:17,899] {logging_mixin.py:115} INFO - [2023-06-05 14:21:17,898] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:21:18,337] {logging_mixin.py:115} INFO - [2023-06-05 14:21:18,330] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:21:18,342] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:21:18,429] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.572 seconds
+[2023-06-05 14:21:49,811] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:21:49,846] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:21:49,853] {logging_mixin.py:115} INFO - [2023-06-05 14:21:49,853] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:21:52,254] {logging_mixin.py:115} INFO - [2023-06-05 14:21:52,253] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:21:52,263] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:21:54,206] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 4.400 seconds
+[2023-06-05 14:22:25,134] {processor.py:153} INFO - Started process (PID=269) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:22:25,136] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:22:25,141] {logging_mixin.py:115} INFO - [2023-06-05 14:22:25,140] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:22:25,166] {logging_mixin.py:115} INFO - [2023-06-05 14:22:25,165] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:22:25,167] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:22:26,990] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 1.863 seconds
+[2023-06-05 14:23:27,731] {processor.py:153} INFO - Started process (PID=292) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:23:27,734] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:23:27,739] {logging_mixin.py:115} INFO - [2023-06-05 14:23:27,739] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:23:27,956] {logging_mixin.py:115} INFO - [2023-06-05 14:23:27,955] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:23:27,957] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:23:28,037] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.335 seconds
+[2023-06-05 14:24:03,606] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:24:03,628] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:24:03,632] {logging_mixin.py:115} INFO - [2023-06-05 14:24:03,632] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:24:03,780] {logging_mixin.py:115} INFO - [2023-06-05 14:24:03,779] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:24:03,795] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:24:03,907] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.335 seconds
+[2023-06-05 14:24:34,454] {processor.py:153} INFO - Started process (PID=339) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:24:34,456] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:24:34,458] {logging_mixin.py:115} INFO - [2023-06-05 14:24:34,457] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:24:34,484] {logging_mixin.py:115} INFO - [2023-06-05 14:24:34,483] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:24:34,484] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:24:34,525] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.080 seconds
+[2023-06-05 14:25:55,353] {processor.py:153} INFO - Started process (PID=364) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:25:55,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:25:55,412] {logging_mixin.py:115} INFO - [2023-06-05 14:25:55,412] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:25:55,567] {logging_mixin.py:115} INFO - [2023-06-05 14:25:55,566] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:25:55,569] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:25:55,699] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.374 seconds
+[2023-06-05 14:26:26,393] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:26:26,403] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:26:26,405] {logging_mixin.py:115} INFO - [2023-06-05 14:26:26,404] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:26:26,440] {logging_mixin.py:115} INFO - [2023-06-05 14:26:26,438] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:26:26,442] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:26:26,516] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.137 seconds
+[2023-06-05 14:26:56,734] {processor.py:153} INFO - Started process (PID=393) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:26:56,735] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:26:56,736] {logging_mixin.py:115} INFO - [2023-06-05 14:26:56,736] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:26:56,761] {logging_mixin.py:115} INFO - [2023-06-05 14:26:56,760] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:26:56,762] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:26:56,804] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.078 seconds
+[2023-06-05 14:27:28,186] {processor.py:153} INFO - Started process (PID=408) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:27:28,227] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:27:28,228] {logging_mixin.py:115} INFO - [2023-06-05 14:27:28,228] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:27:28,643] {logging_mixin.py:115} INFO - [2023-06-05 14:27:28,642] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:27:28,646] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:27:28,833] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.651 seconds
+[2023-06-05 14:28:43,507] {processor.py:153} INFO - Started process (PID=425) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:28:43,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:28:43,511] {logging_mixin.py:115} INFO - [2023-06-05 14:28:43,510] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:28:43,622] {logging_mixin.py:115} INFO - [2023-06-05 14:28:43,621] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:28:43,623] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:28:43,715] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.220 seconds
+[2023-06-05 14:29:58,436] {processor.py:153} INFO - Started process (PID=439) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:29:58,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:29:58,471] {logging_mixin.py:115} INFO - [2023-06-05 14:29:58,471] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:30:00,068] {logging_mixin.py:115} INFO - [2023-06-05 14:30:00,067] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:30:00,069] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:30:09,249] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 10.817 seconds
+[2023-06-05 14:31:18,931] {processor.py:153} INFO - Started process (PID=461) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:31:18,933] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:31:18,934] {logging_mixin.py:115} INFO - [2023-06-05 14:31:18,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:31:18,950] {logging_mixin.py:115} INFO - [2023-06-05 14:31:18,949] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:31:18,951] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:31:19,437] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.510 seconds
+[2023-06-05 14:36:43,013] {processor.py:153} INFO - Started process (PID=485) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:36:43,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:36:43,066] {logging_mixin.py:115} INFO - [2023-06-05 14:36:43,066] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:36:45,364] {processor.py:153} INFO - Started process (PID=501) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:36:45,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:36:45,422] {logging_mixin.py:115} INFO - [2023-06-05 14:36:45,422] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:36:45,957] {logging_mixin.py:115} INFO - [2023-06-05 14:36:45,943] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:36:45,963] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:36:54,400] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 9.169 seconds
+[2023-06-05 14:37:49,155] {processor.py:153} INFO - Started process (PID=516) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:37:49,177] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:37:49,183] {logging_mixin.py:115} INFO - [2023-06-05 14:37:49,183] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:37:49,375] {logging_mixin.py:115} INFO - [2023-06-05 14:37:49,374] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/jupyter-dag-Copy1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/jupyter-dag-Copy1.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:37:49,376] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:37:49,922] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.780 seconds
+[2023-06-05 14:38:09,140] {processor.py:153} INFO - Started process (PID=543) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:38:09,144] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:38:09,148] {logging_mixin.py:115} INFO - [2023-06-05 14:38:09,148] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:38:18,326] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:38:30,284] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 20.839 seconds
+[2023-06-05 14:39:00,601] {processor.py:153} INFO - Started process (PID=558) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:39:00,603] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:39:00,603] {logging_mixin.py:115} INFO - [2023-06-05 14:39:00,603] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:39:00,616] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:39:00,636] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.039 seconds
+[2023-06-05 14:39:48,093] {processor.py:153} INFO - Started process (PID=573) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:39:49,493] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:39:49,509] {logging_mixin.py:115} INFO - [2023-06-05 14:39:49,509] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:39:55,978] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:39:56,084] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 9.104 seconds
+[2023-06-05 14:40:52,957] {processor.py:153} INFO - Started process (PID=593) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:40:52,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:40:53,035] {logging_mixin.py:115} INFO - [2023-06-05 14:40:53,035] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:40:55,568] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:40:55,684] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 7.608 seconds
+[2023-06-05 14:41:28,723] {processor.py:153} INFO - Started process (PID=613) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:41:28,726] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:41:28,727] {logging_mixin.py:115} INFO - [2023-06-05 14:41:28,727] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:41:28,747] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:41:28,776] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.061 seconds
+[2023-06-05 14:42:22,778] {processor.py:153} INFO - Started process (PID=633) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:42:22,792] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:42:22,830] {logging_mixin.py:115} INFO - [2023-06-05 14:42:22,830] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:42:24,288] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:42:30,688] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 11.767 seconds
+[2023-06-05 14:44:22,701] {processor.py:153} INFO - Started process (PID=651) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:44:22,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:44:22,715] {logging_mixin.py:115} INFO - [2023-06-05 14:44:22,715] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:44:22,876] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:44:23,011] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 6.160 seconds
+[2023-06-05 14:44:55,739] {processor.py:153} INFO - Started process (PID=674) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:44:55,741] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:44:55,754] {logging_mixin.py:115} INFO - [2023-06-05 14:44:55,754] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:44:56,017] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:44:56,109] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.378 seconds
+[2023-06-05 14:45:26,614] {processor.py:153} INFO - Started process (PID=694) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:45:26,623] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:45:26,624] {logging_mixin.py:115} INFO - [2023-06-05 14:45:26,624] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:45:26,672] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:45:26,723] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.117 seconds
+[2023-06-05 14:45:57,288] {processor.py:153} INFO - Started process (PID=714) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:45:57,325] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:45:57,334] {logging_mixin.py:115} INFO - [2023-06-05 14:45:57,333] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:45:57,452] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:45:57,485] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.203 seconds
+[2023-06-05 14:46:27,846] {processor.py:153} INFO - Started process (PID=734) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:46:27,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:46:27,860] {logging_mixin.py:115} INFO - [2023-06-05 14:46:27,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:46:27,889] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:46:27,942] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.101 seconds
+[2023-06-05 14:47:02,303] {processor.py:153} INFO - Started process (PID=752) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:47:02,310] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:47:02,313] {logging_mixin.py:115} INFO - [2023-06-05 14:47:02,312] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:47:02,341] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:47:03,354] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 1.068 seconds
+[2023-06-05 14:55:52,470] {processor.py:153} INFO - Started process (PID=188) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:55:52,471] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:55:52,473] {logging_mixin.py:115} INFO - [2023-06-05 14:55:52,473] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:55:52,514] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:55:52,636] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.177 seconds
+[2023-06-05 14:56:27,794] {processor.py:153} INFO - Started process (PID=208) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:56:27,985] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:56:28,139] {logging_mixin.py:115} INFO - [2023-06-05 14:56:28,139] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:56:31,616] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:56:31,729] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 3.960 seconds
+[2023-06-05 14:57:03,250] {processor.py:153} INFO - Started process (PID=228) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:57:03,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:57:03,336] {logging_mixin.py:115} INFO - [2023-06-05 14:57:03,336] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:57:04,374] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:57:04,541] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 1.296 seconds
+[2023-06-05 14:57:35,067] {processor.py:153} INFO - Started process (PID=248) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:57:35,068] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:57:35,068] {logging_mixin.py:115} INFO - [2023-06-05 14:57:35,068] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:57:35,084] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:57:35,110] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.048 seconds
+[2023-06-05 14:58:05,482] {processor.py:153} INFO - Started process (PID=268) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:58:05,484] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:58:05,509] {logging_mixin.py:115} INFO - [2023-06-05 14:58:05,509] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:58:05,673] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:58:05,705] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.228 seconds
+[2023-06-05 14:58:36,138] {processor.py:153} INFO - Started process (PID=288) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:58:36,138] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:58:36,139] {logging_mixin.py:115} INFO - [2023-06-05 14:58:36,139] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:58:36,158] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:58:36,188] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.055 seconds
+[2023-06-05 14:59:06,918] {processor.py:153} INFO - Started process (PID=308) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:59:06,919] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:59:06,920] {logging_mixin.py:115} INFO - [2023-06-05 14:59:06,920] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:59:06,944] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:59:06,976] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.068 seconds
+[2023-06-05 14:59:37,347] {processor.py:153} INFO - Started process (PID=328) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:59:37,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 14:59:37,361] {logging_mixin.py:115} INFO - [2023-06-05 14:59:37,360] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:59:37,419] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 14:59:37,461] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.123 seconds
+[2023-06-05 15:00:08,339] {processor.py:153} INFO - Started process (PID=348) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:00:08,341] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 15:00:08,343] {logging_mixin.py:115} INFO - [2023-06-05 15:00:08,343] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:00:08,357] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:00:08,387] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.055 seconds
+[2023-06-05 15:00:39,583] {processor.py:153} INFO - Started process (PID=368) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:00:39,627] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 15:00:39,644] {logging_mixin.py:115} INFO - [2023-06-05 15:00:39,644] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:00:54,588] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:00:54,716] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 15.150 seconds
+[2023-06-05 15:06:16,030] {processor.py:153} INFO - Started process (PID=389) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:06:16,032] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 15:06:16,033] {logging_mixin.py:115} INFO - [2023-06-05 15:06:16,033] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:06:16,057] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:06:21,921] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 5.911 seconds
+[2023-06-05 15:07:11,243] {processor.py:153} INFO - Started process (PID=409) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:07:37,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 15:07:37,260] {logging_mixin.py:115} INFO - [2023-06-05 15:07:37,260] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:07:38,135] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:07:40,273] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 28.795 seconds
+[2023-06-05 15:08:15,815] {processor.py:153} INFO - Started process (PID=432) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:08:15,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 15:08:15,868] {logging_mixin.py:115} INFO - [2023-06-05 15:08:15,853] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:08:16,210] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:08:16,530] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.719 seconds
+[2023-06-05 15:08:50,408] {processor.py:153} INFO - Started process (PID=452) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:08:50,415] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 15:08:50,419] {logging_mixin.py:115} INFO - [2023-06-05 15:08:50,418] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:08:50,692] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:08:50,810] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.416 seconds
+[2023-06-05 15:09:21,305] {processor.py:153} INFO - Started process (PID=472) to work on /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:09:21,322] {processor.py:641} INFO - Processing file /opt/airflow/dags/jupyter-dag-Copy1.py for tasks to queue
+[2023-06-05 15:09:21,325] {logging_mixin.py:115} INFO - [2023-06-05 15:09:21,324] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:09:21,365] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/jupyter-dag-Copy1.py
+[2023-06-05 15:09:21,419] {processor.py:161} INFO - Processing /opt/airflow/dags/jupyter-dag-Copy1.py took 0.122 seconds

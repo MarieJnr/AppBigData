@@ -1,0 +1,819 @@
+[2023-06-05 14:19:16,574] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:19:16,641] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:19:16,644] {logging_mixin.py:115} INFO - [2023-06-05 14:19:16,644] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:19:16,692] {logging_mixin.py:115} INFO - [2023-06-05 14:19:16,691] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:19:16,699] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:19:17,482] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 4.097 seconds
+[2023-06-05 14:19:59,639] {processor.py:153} INFO - Started process (PID=199) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:19:59,675] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:19:59,683] {logging_mixin.py:115} INFO - [2023-06-05 14:19:59,683] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:19:59,865] {logging_mixin.py:115} INFO - [2023-06-05 14:19:59,863] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:19:59,869] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:20:00,080] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.451 seconds
+[2023-06-05 14:20:30,984] {processor.py:153} INFO - Started process (PID=216) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:20:31,032] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:20:31,037] {logging_mixin.py:115} INFO - [2023-06-05 14:20:31,036] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:20:31,108] {logging_mixin.py:115} INFO - [2023-06-05 14:20:31,107] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:20:31,129] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:20:31,321] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.342 seconds
+[2023-06-05 14:21:02,017] {processor.py:153} INFO - Started process (PID=232) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:21:02,025] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:21:02,030] {logging_mixin.py:115} INFO - [2023-06-05 14:21:02,029] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:21:02,100] {logging_mixin.py:115} INFO - [2023-06-05 14:21:02,095] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:21:02,101] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:21:03,096] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 1.083 seconds
+[2023-06-05 14:21:36,089] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:21:36,090] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:21:36,091] {logging_mixin.py:115} INFO - [2023-06-05 14:21:36,091] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:21:36,114] {logging_mixin.py:115} INFO - [2023-06-05 14:21:36,113] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:21:36,115] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:21:36,495] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.410 seconds
+[2023-06-05 14:22:09,287] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:22:09,317] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:22:09,319] {logging_mixin.py:115} INFO - [2023-06-05 14:22:09,319] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:22:09,409] {logging_mixin.py:115} INFO - [2023-06-05 14:22:09,403] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:22:09,412] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:22:09,660] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.378 seconds
+[2023-06-05 14:22:40,818] {processor.py:153} INFO - Started process (PID=277) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:22:40,821] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:22:40,832] {logging_mixin.py:115} INFO - [2023-06-05 14:22:40,824] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:22:40,978] {logging_mixin.py:115} INFO - [2023-06-05 14:22:40,976] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:22:40,980] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:22:41,395] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.597 seconds
+[2023-06-05 14:23:27,456] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:23:27,460] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:23:27,461] {logging_mixin.py:115} INFO - [2023-06-05 14:23:27,461] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:23:27,533] {logging_mixin.py:115} INFO - [2023-06-05 14:23:27,532] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:23:27,534] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:23:27,583] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.139 seconds
+[2023-06-05 14:23:58,418] {processor.py:153} INFO - Started process (PID=302) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:23:58,420] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:23:58,421] {logging_mixin.py:115} INFO - [2023-06-05 14:23:58,421] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:03,033] {logging_mixin.py:115} INFO - [2023-06-05 14:23:58,471] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 11
+    global df_gab_abstr = spark.read.parquet("hdfs://namenode:9000/DataLake/gab_abstr.parquet")
+                        ^
+SyntaxError: invalid syntax
+[2023-06-05 14:24:03,039] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:03,359] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 4.953 seconds
+[2023-06-05 14:24:22,596] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:22,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:24:22,598] {logging_mixin.py:115} INFO - [2023-06-05 14:24:22,598] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:22,693] {logging_mixin.py:115} INFO - [2023-06-05 14:24:22,675] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:24:22,704] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:22,798] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.216 seconds
+[2023-06-05 14:24:22,957] {processor.py:153} INFO - Started process (PID=329) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:22,959] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:24:22,960] {logging_mixin.py:115} INFO - [2023-06-05 14:24:22,960] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:23,028] {logging_mixin.py:115} INFO - [2023-06-05 14:24:23,013] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:24:23,032] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:23,096] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.150 seconds
+[2023-06-05 14:24:53,763] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:53,766] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:24:53,770] {logging_mixin.py:115} INFO - [2023-06-05 14:24:53,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:54,372] {logging_mixin.py:115} INFO - [2023-06-05 14:24:54,366] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:24:54,374] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:24:55,473] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 1.731 seconds
+[2023-06-05 14:25:54,813] {processor.py:153} INFO - Started process (PID=356) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:25:54,835] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:25:54,837] {logging_mixin.py:115} INFO - [2023-06-05 14:25:54,837] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:25:55,110] {logging_mixin.py:115} INFO - [2023-06-05 14:25:55,075] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:25:55,119] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:25:55,208] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.413 seconds
+[2023-06-05 14:26:26,095] {processor.py:153} INFO - Started process (PID=373) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:26:26,100] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:26:26,105] {logging_mixin.py:115} INFO - [2023-06-05 14:26:26,105] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:26:26,216] {logging_mixin.py:115} INFO - [2023-06-05 14:26:26,206] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:26:26,220] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:26:26,335] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.252 seconds
+[2023-06-05 14:26:56,627] {processor.py:153} INFO - Started process (PID=387) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:26:56,628] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:26:56,629] {logging_mixin.py:115} INFO - [2023-06-05 14:26:56,629] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:26:56,657] {logging_mixin.py:115} INFO - [2023-06-05 14:26:56,651] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:26:56,659] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:26:56,701] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.081 seconds
+[2023-06-05 14:27:27,222] {processor.py:153} INFO - Started process (PID=403) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:27:27,232] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:27:27,234] {logging_mixin.py:115} INFO - [2023-06-05 14:27:27,234] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:27:27,296] {logging_mixin.py:115} INFO - [2023-06-05 14:27:27,290] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:27:27,303] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:27:28,421] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 1.204 seconds
+[2023-06-05 14:28:40,989] {processor.py:153} INFO - Started process (PID=416) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:28:42,008] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:28:42,021] {logging_mixin.py:115} INFO - [2023-06-05 14:28:42,019] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:28:42,295] {logging_mixin.py:115} INFO - [2023-06-05 14:28:42,289] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:28:42,297] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:28:43,429] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 3.851 seconds
+[2023-06-05 14:29:18,669] {processor.py:153} INFO - Started process (PID=433) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:29:18,701] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:29:18,703] {logging_mixin.py:115} INFO - [2023-06-05 14:29:18,703] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:29:18,785] {logging_mixin.py:115} INFO - [2023-06-05 14:29:18,778] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:29:18,787] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:29:22,842] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 4.127 seconds
+[2023-06-05 14:31:18,227] {processor.py:153} INFO - Started process (PID=451) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:31:18,228] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:31:18,230] {logging_mixin.py:115} INFO - [2023-06-05 14:31:18,230] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:31:18,348] {logging_mixin.py:115} INFO - [2023-06-05 14:31:18,343] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:31:18,351] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:31:18,883] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.661 seconds
+[2023-06-05 14:32:28,456] {processor.py:153} INFO - Started process (PID=467) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:32:28,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:32:28,535] {logging_mixin.py:115} INFO - [2023-06-05 14:32:28,534] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:32:31,553] {logging_mixin.py:115} INFO - [2023-06-05 14:32:31,186] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:32:32,129] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:32:42,314] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 158, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 654, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 541, in update_import_errors
+    existing_import_error_files = [x.filename for x in session.query(errors.ImportError.filename).all()]
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2683, in all
+    return self._iter().all()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 2821, in _iter
+    execution_options={"_sa_orm_load_options": self.load_options},
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1669, in execute
+    conn = self._connection_for_bind(bind, close_with_result=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1520, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3095, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 91, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3174, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3145, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2004, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3141, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 301, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 755, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 419, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 142, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 247, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 362, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 605, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 599, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 583, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/14/e3q8)
+[2023-06-05 14:36:43,923] {processor.py:153} INFO - Started process (PID=491) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:36:43,951] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:36:43,975] {logging_mixin.py:115} INFO - [2023-06-05 14:36:43,975] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:36:44,871] {logging_mixin.py:115} INFO - [2023-06-05 14:36:44,870] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1
+    !pip install pyspark
+    ^
+SyntaxError: invalid syntax
+[2023-06-05 14:36:44,874] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:36:44,964] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 1.049 seconds
+[2023-06-05 14:37:15,446] {processor.py:153} INFO - Started process (PID=509) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:37:15,449] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:37:15,451] {logging_mixin.py:115} INFO - [2023-06-05 14:37:15,451] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:37:15,493] {logging_mixin.py:115} INFO - [2023-06-05 14:37:15,491] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1
+    !pip install pyspark
+    ^
+SyntaxError: invalid syntax
+[2023-06-05 14:37:15,493] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:37:15,547] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.110 seconds
+[2023-06-05 14:37:50,009] {processor.py:153} INFO - Started process (PID=526) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:37:50,010] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:37:50,011] {logging_mixin.py:115} INFO - [2023-06-05 14:37:50,010] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:37:50,037] {logging_mixin.py:115} INFO - [2023-06-05 14:37:50,036] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1
+    !pip install pyspark
+    ^
+SyntaxError: invalid syntax
+[2023-06-05 14:37:50,038] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:37:50,210] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.204 seconds
+[2023-06-05 14:38:06,421] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:38:06,423] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:38:06,435] {logging_mixin.py:115} INFO - [2023-06-05 14:38:06,435] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:38:06,614] {logging_mixin.py:115} INFO - [2023-06-05 14:38:06,576] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:38:06,619] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:38:06,781] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.365 seconds
+[2023-06-05 14:38:37,472] {processor.py:153} INFO - Started process (PID=551) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:38:37,476] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:38:37,477] {logging_mixin.py:115} INFO - [2023-06-05 14:38:37,477] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:38:37,531] {logging_mixin.py:115} INFO - [2023-06-05 14:38:37,515] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:38:37,533] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:38:37,604] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.138 seconds
+[2023-06-05 14:39:07,683] {processor.py:153} INFO - Started process (PID=565) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:39:07,685] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:39:07,686] {logging_mixin.py:115} INFO - [2023-06-05 14:39:07,686] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:39:07,723] {logging_mixin.py:115} INFO - [2023-06-05 14:39:07,717] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:39:07,725] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:39:11,750] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 4.074 seconds
+[2023-06-05 14:39:56,930] {processor.py:153} INFO - Started process (PID=588) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:39:56,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:39:56,935] {logging_mixin.py:115} INFO - [2023-06-05 14:39:56,935] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:39:56,995] {logging_mixin.py:115} INFO - [2023-06-05 14:39:56,988] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:39:56,997] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:39:57,035] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.109 seconds
+[2023-06-05 14:40:56,108] {processor.py:153} INFO - Started process (PID=606) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:40:56,114] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:40:56,118] {logging_mixin.py:115} INFO - [2023-06-05 14:40:56,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:40:56,291] {logging_mixin.py:115} INFO - [2023-06-05 14:40:56,276] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:40:56,293] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:40:56,358] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.262 seconds
+[2023-06-05 14:41:29,079] {processor.py:153} INFO - Started process (PID=628) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:41:29,081] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:41:29,083] {logging_mixin.py:115} INFO - [2023-06-05 14:41:29,083] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:41:29,115] {logging_mixin.py:115} INFO - [2023-06-05 14:41:29,110] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:41:29,117] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:41:29,150] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.077 seconds
+[2023-06-05 14:43:31,893] {processor.py:153} INFO - Started process (PID=647) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:43:31,895] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:43:31,905] {logging_mixin.py:115} INFO - [2023-06-05 14:43:31,905] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:44:27,555] {processor.py:153} INFO - Started process (PID=669) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:44:27,564] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:44:27,567] {logging_mixin.py:115} INFO - [2023-06-05 14:44:27,566] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:44:27,656] {logging_mixin.py:115} INFO - [2023-06-05 14:44:27,627] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:44:27,659] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:44:28,001] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 4.319 seconds
+[2023-06-05 14:45:02,813] {processor.py:153} INFO - Started process (PID=689) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:45:02,816] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:45:02,825] {logging_mixin.py:115} INFO - [2023-06-05 14:45:02,825] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:45:02,875] {logging_mixin.py:115} INFO - [2023-06-05 14:45:02,860] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:45:02,890] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:45:11,357] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 8.550 seconds
+[2023-06-05 14:45:43,628] {processor.py:153} INFO - Started process (PID=709) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:45:43,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:45:43,630] {logging_mixin.py:115} INFO - [2023-06-05 14:45:43,630] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:45:43,854] {logging_mixin.py:115} INFO - [2023-06-05 14:45:43,847] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:45:43,858] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:45:43,970] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.347 seconds
+[2023-06-05 14:46:19,721] {processor.py:153} INFO - Started process (PID=729) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:46:19,738] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:46:19,750] {logging_mixin.py:115} INFO - [2023-06-05 14:46:19,750] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:46:19,889] {logging_mixin.py:115} INFO - [2023-06-05 14:46:19,880] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:46:19,913] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:46:20,842] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 1.159 seconds
+[2023-06-05 14:47:02,278] {processor.py:153} INFO - Started process (PID=749) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:47:02,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:47:02,304] {logging_mixin.py:115} INFO - [2023-06-05 14:47:02,303] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:47:02,350] {logging_mixin.py:115} INFO - [2023-06-05 14:47:02,345] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:47:02,352] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:47:03,441] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 1.194 seconds
+[2023-06-05 14:55:54,139] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:55:54,143] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:55:54,145] {logging_mixin.py:115} INFO - [2023-06-05 14:55:54,145] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:55:54,495] {logging_mixin.py:115} INFO - [2023-06-05 14:55:54,480] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:55:54,501] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:55:54,614] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.485 seconds
+[2023-06-05 14:56:34,671] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:56:34,672] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:56:34,674] {logging_mixin.py:115} INFO - [2023-06-05 14:56:34,674] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:56:37,777] {logging_mixin.py:115} INFO - [2023-06-05 14:56:36,988] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:56:38,164] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:56:38,392] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 3.714 seconds
+[2023-06-05 14:57:09,543] {processor.py:153} INFO - Started process (PID=243) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:57:09,554] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:57:09,560] {logging_mixin.py:115} INFO - [2023-06-05 14:57:09,560] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:57:10,034] {logging_mixin.py:115} INFO - [2023-06-05 14:57:09,999] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:57:10,142] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:57:10,262] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.723 seconds
+[2023-06-05 14:57:40,369] {processor.py:153} INFO - Started process (PID=263) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:57:40,371] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:57:40,372] {logging_mixin.py:115} INFO - [2023-06-05 14:57:40,372] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:57:40,417] {logging_mixin.py:115} INFO - [2023-06-05 14:57:40,410] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:57:40,420] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:57:40,486] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.123 seconds
+[2023-06-05 14:58:10,755] {processor.py:153} INFO - Started process (PID=283) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:58:10,769] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:58:10,771] {logging_mixin.py:115} INFO - [2023-06-05 14:58:10,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:58:10,918] {logging_mixin.py:115} INFO - [2023-06-05 14:58:10,905] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:58:10,922] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:58:11,015] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.263 seconds
+[2023-06-05 14:58:41,322] {processor.py:153} INFO - Started process (PID=303) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:58:41,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:58:41,324] {logging_mixin.py:115} INFO - [2023-06-05 14:58:41,324] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:58:41,347] {logging_mixin.py:115} INFO - [2023-06-05 14:58:41,341] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:58:41,349] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:58:41,386] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.068 seconds
+[2023-06-05 14:59:11,804] {processor.py:153} INFO - Started process (PID=323) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:59:11,805] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:59:11,806] {logging_mixin.py:115} INFO - [2023-06-05 14:59:11,806] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:59:11,836] {logging_mixin.py:115} INFO - [2023-06-05 14:59:11,828] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:59:11,837] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:59:11,884] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.090 seconds
+[2023-06-05 14:59:42,084] {processor.py:153} INFO - Started process (PID=343) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:59:42,091] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 14:59:42,092] {logging_mixin.py:115} INFO - [2023-06-05 14:59:42,092] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:59:42,179] {logging_mixin.py:115} INFO - [2023-06-05 14:59:42,170] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 14:59:42,182] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 14:59:42,305] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.225 seconds
+[2023-06-05 15:00:12,610] {processor.py:153} INFO - Started process (PID=363) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:00:12,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 15:00:12,612] {logging_mixin.py:115} INFO - [2023-06-05 15:00:12,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:00:12,636] {logging_mixin.py:115} INFO - [2023-06-05 15:00:12,631] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 15:00:12,639] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:00:12,686] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.080 seconds
+[2023-06-05 15:06:22,375] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:06:22,384] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 15:06:22,389] {logging_mixin.py:115} INFO - [2023-06-05 15:06:22,389] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:06:22,483] {logging_mixin.py:115} INFO - [2023-06-05 15:06:22,473] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 15:06:22,488] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:06:31,608] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 9.239 seconds
+[2023-06-05 15:07:40,406] {processor.py:153} INFO - Started process (PID=425) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:07:40,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 15:07:40,413] {logging_mixin.py:115} INFO - [2023-06-05 15:07:40,413] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:07:40,449] {logging_mixin.py:115} INFO - [2023-06-05 15:07:40,441] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 15:07:40,466] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:07:40,755] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.354 seconds
+[2023-06-05 15:08:20,367] {processor.py:153} INFO - Started process (PID=445) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:08:20,525] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 15:08:20,529] {logging_mixin.py:115} INFO - [2023-06-05 15:08:20,529] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:08:20,743] {logging_mixin.py:115} INFO - [2023-06-05 15:08:20,727] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 15:08:20,985] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:08:21,185] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.821 seconds
+[2023-06-05 15:08:51,752] {processor.py:153} INFO - Started process (PID=467) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:08:51,755] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 15:08:51,758] {logging_mixin.py:115} INFO - [2023-06-05 15:08:51,757] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:08:51,797] {logging_mixin.py:115} INFO - [2023-06-05 15:08:51,792] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 15:08:51,798] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:08:51,906] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.165 seconds
+[2023-06-05 15:09:22,802] {processor.py:153} INFO - Started process (PID=483) to work on /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:09:22,811] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py for tasks to queue
+[2023-06-05 15:09:22,815] {logging_mixin.py:115} INFO - [2023-06-05 15:09:22,814] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:09:22,892] {logging_mixin.py:115} INFO - [2023-06-05 15:09:22,883] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py", line 1, in <module>
+    from pyspark.sql.functions import when, col, date_format
+ModuleNotFoundError: No module named 'pyspark'
+[2023-06-05 15:09:22,895] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py
+[2023-06-05 15:09:22,940] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/Load_Data-checkpoint.py took 0.143 seconds

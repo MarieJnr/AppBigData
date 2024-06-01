@@ -1,0 +1,329 @@
+[2023-05-30 11:22:41,869] {processor.py:153} INFO - Started process (PID=648) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:22:41,870] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:22:41,872] {logging_mixin.py:115} INFO - [2023-05-30 11:22:41,872] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:22:41,958] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:22:42,490] {logging_mixin.py:115} INFO - [2023-05-30 11:22:42,490] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:22:42,540] {logging_mixin.py:115} INFO - [2023-05-30 11:22:42,540] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:22:42,592] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.734 seconds
+[2023-05-30 11:23:13,333] {processor.py:153} INFO - Started process (PID=670) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:23:13,334] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:23:13,335] {logging_mixin.py:115} INFO - [2023-05-30 11:23:13,335] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:23:13,368] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:23:13,530] {logging_mixin.py:115} INFO - [2023-05-30 11:23:13,530] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:23:13,605] {logging_mixin.py:115} INFO - [2023-05-30 11:23:13,605] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:23:13,636] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.309 seconds
+[2023-05-30 11:23:44,012] {processor.py:153} INFO - Started process (PID=685) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:23:44,128] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:23:44,137] {logging_mixin.py:115} INFO - [2023-05-30 11:23:44,137] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:23:44,649] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:23:44,768] {logging_mixin.py:115} INFO - [2023-05-30 11:23:44,767] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:23:44,911] {logging_mixin.py:115} INFO - [2023-05-30 11:23:44,911] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:23:44,949] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.941 seconds
+[2023-05-30 11:24:15,507] {processor.py:153} INFO - Started process (PID=700) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:24:15,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:24:15,510] {logging_mixin.py:115} INFO - [2023-05-30 11:24:15,510] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:24:15,753] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:24:15,783] {logging_mixin.py:115} INFO - [2023-05-30 11:24:15,783] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:24:15,918] {logging_mixin.py:115} INFO - [2023-05-30 11:24:15,918] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:24:16,025] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.523 seconds
+[2023-05-30 11:24:50,177] {processor.py:153} INFO - Started process (PID=713) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:24:50,208] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:24:50,244] {logging_mixin.py:115} INFO - [2023-05-30 11:24:50,244] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:24:50,954] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:24:51,004] {logging_mixin.py:115} INFO - [2023-05-30 11:24:51,004] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:24:51,140] {logging_mixin.py:115} INFO - [2023-05-30 11:24:51,140] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:24:51,842] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 1.683 seconds
+[2023-05-30 11:25:40,584] {processor.py:153} INFO - Started process (PID=731) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:25:40,587] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:25:40,589] {logging_mixin.py:115} INFO - [2023-05-30 11:25:40,588] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:25:40,681] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:25:41,549] {logging_mixin.py:115} INFO - [2023-05-30 11:25:41,541] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:25:41,694] {logging_mixin.py:115} INFO - [2023-05-30 11:25:41,693] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:25:41,860] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 1.282 seconds
+[2023-05-30 11:26:12,108] {processor.py:153} INFO - Started process (PID=748) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:26:12,130] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:26:12,131] {logging_mixin.py:115} INFO - [2023-05-30 11:26:12,131] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:26:12,209] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:26:12,257] {logging_mixin.py:115} INFO - [2023-05-30 11:26:12,257] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:26:12,328] {logging_mixin.py:115} INFO - [2023-05-30 11:26:12,328] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:26:12,375] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.277 seconds
+[2023-05-30 11:26:42,709] {processor.py:153} INFO - Started process (PID=763) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:26:42,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:26:42,711] {logging_mixin.py:115} INFO - [2023-05-30 11:26:42,711] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:26:42,841] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:26:42,969] {logging_mixin.py:115} INFO - [2023-05-30 11:26:42,969] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:26:43,004] {logging_mixin.py:115} INFO - [2023-05-30 11:26:43,004] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:26:43,031] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.333 seconds
+[2023-05-30 11:27:13,337] {processor.py:153} INFO - Started process (PID=778) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:27:13,339] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:27:13,341] {logging_mixin.py:115} INFO - [2023-05-30 11:27:13,341] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:27:13,387] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:27:13,427] {logging_mixin.py:115} INFO - [2023-05-30 11:27:13,427] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:27:13,468] {logging_mixin.py:115} INFO - [2023-05-30 11:27:13,468] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:27:13,489] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.161 seconds
+[2023-05-30 11:27:44,088] {processor.py:153} INFO - Started process (PID=798) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:27:44,090] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:27:44,092] {logging_mixin.py:115} INFO - [2023-05-30 11:27:44,092] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:27:44,125] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:27:44,252] {logging_mixin.py:115} INFO - [2023-05-30 11:27:44,252] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:27:44,289] {logging_mixin.py:115} INFO - [2023-05-30 11:27:44,289] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:27:44,320] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.236 seconds
+[2023-05-30 11:28:14,909] {processor.py:153} INFO - Started process (PID=820) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:28:14,910] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:28:14,912] {logging_mixin.py:115} INFO - [2023-05-30 11:28:14,911] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:28:14,947] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:28:14,974] {logging_mixin.py:115} INFO - [2023-05-30 11:28:14,974] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:28:15,058] {logging_mixin.py:115} INFO - [2023-05-30 11:28:15,058] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:28:15,273] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.370 seconds
+[2023-05-30 11:28:45,754] {processor.py:153} INFO - Started process (PID=838) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:28:45,755] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:28:45,756] {logging_mixin.py:115} INFO - [2023-05-30 11:28:45,756] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:28:45,789] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:28:45,907] {logging_mixin.py:115} INFO - [2023-05-30 11:28:45,907] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:28:45,949] {logging_mixin.py:115} INFO - [2023-05-30 11:28:45,948] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:28:45,973] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.225 seconds
+[2023-05-30 11:29:16,194] {processor.py:153} INFO - Started process (PID=860) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:29:16,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:29:16,196] {logging_mixin.py:115} INFO - [2023-05-30 11:29:16,196] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:29:16,221] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:29:16,239] {logging_mixin.py:115} INFO - [2023-05-30 11:29:16,238] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:29:16,274] {logging_mixin.py:115} INFO - [2023-05-30 11:29:16,274] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:29:16,295] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.105 seconds
+[2023-05-30 11:29:46,728] {processor.py:153} INFO - Started process (PID=878) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:29:46,729] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:29:46,731] {logging_mixin.py:115} INFO - [2023-05-30 11:29:46,731] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:29:46,764] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:29:46,941] {logging_mixin.py:115} INFO - [2023-05-30 11:29:46,941] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:29:46,980] {logging_mixin.py:115} INFO - [2023-05-30 11:29:46,979] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:29:47,021] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.301 seconds
+[2023-05-30 11:30:17,479] {processor.py:153} INFO - Started process (PID=898) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:30:17,480] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:30:17,482] {logging_mixin.py:115} INFO - [2023-05-30 11:30:17,481] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:30:17,511] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:30:17,546] {logging_mixin.py:115} INFO - [2023-05-30 11:30:17,546] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:30:17,586] {logging_mixin.py:115} INFO - [2023-05-30 11:30:17,586] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:30:17,606] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.131 seconds
+[2023-05-30 11:30:48,200] {processor.py:153} INFO - Started process (PID=918) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:30:48,201] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:30:48,203] {logging_mixin.py:115} INFO - [2023-05-30 11:30:48,202] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:30:48,235] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:30:48,349] {logging_mixin.py:115} INFO - [2023-05-30 11:30:48,349] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:30:48,384] {logging_mixin.py:115} INFO - [2023-05-30 11:30:48,384] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:30:48,412] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.216 seconds
+[2023-05-30 11:31:18,906] {processor.py:153} INFO - Started process (PID=938) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:31:18,907] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:31:18,908] {logging_mixin.py:115} INFO - [2023-05-30 11:31:18,908] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:31:18,940] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:31:19,035] {logging_mixin.py:115} INFO - [2023-05-30 11:31:19,035] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:31:19,110] {logging_mixin.py:115} INFO - [2023-05-30 11:31:19,110] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:31:19,132] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.231 seconds
+[2023-05-30 11:31:49,580] {processor.py:153} INFO - Started process (PID=958) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:31:49,581] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:31:49,583] {logging_mixin.py:115} INFO - [2023-05-30 11:31:49,582] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:31:49,612] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:31:49,713] {logging_mixin.py:115} INFO - [2023-05-30 11:31:49,713] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:31:49,742] {logging_mixin.py:115} INFO - [2023-05-30 11:31:49,742] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:31:49,763] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.188 seconds
+[2023-05-30 11:32:20,168] {processor.py:153} INFO - Started process (PID=978) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:32:20,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:32:20,174] {logging_mixin.py:115} INFO - [2023-05-30 11:32:20,173] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:32:20,208] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:32:20,249] {logging_mixin.py:115} INFO - [2023-05-30 11:32:20,248] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:32:20,317] {logging_mixin.py:115} INFO - [2023-05-30 11:32:20,316] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:32:20,421] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.259 seconds
+[2023-05-30 11:32:50,978] {processor.py:153} INFO - Started process (PID=998) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:32:50,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:32:50,980] {logging_mixin.py:115} INFO - [2023-05-30 11:32:50,980] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:32:51,013] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:32:51,140] {logging_mixin.py:115} INFO - [2023-05-30 11:32:51,140] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:32:51,173] {logging_mixin.py:115} INFO - [2023-05-30 11:32:51,173] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:32:51,195] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.225 seconds
+[2023-05-30 11:33:21,743] {processor.py:153} INFO - Started process (PID=1018) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:33:21,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:33:21,745] {logging_mixin.py:115} INFO - [2023-05-30 11:33:21,745] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:33:21,784] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:33:21,841] {logging_mixin.py:115} INFO - [2023-05-30 11:33:21,841] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:33:21,894] {logging_mixin.py:115} INFO - [2023-05-30 11:33:21,894] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:33:21,919] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.183 seconds
+[2023-05-30 11:33:52,461] {processor.py:153} INFO - Started process (PID=1038) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:33:52,462] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:33:52,463] {logging_mixin.py:115} INFO - [2023-05-30 11:33:52,463] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:33:52,495] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:33:52,596] {logging_mixin.py:115} INFO - [2023-05-30 11:33:52,596] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:33:52,630] {logging_mixin.py:115} INFO - [2023-05-30 11:33:52,630] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:33:52,650] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.194 seconds
+[2023-05-30 11:34:23,222] {processor.py:153} INFO - Started process (PID=1058) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:34:23,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:34:23,225] {logging_mixin.py:115} INFO - [2023-05-30 11:34:23,225] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:34:23,258] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:34:23,293] {logging_mixin.py:115} INFO - [2023-05-30 11:34:23,292] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:34:23,330] {logging_mixin.py:115} INFO - [2023-05-30 11:34:23,330] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:34:23,351] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.135 seconds
+[2023-05-30 11:34:53,994] {processor.py:153} INFO - Started process (PID=1078) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:34:53,997] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:34:54,002] {logging_mixin.py:115} INFO - [2023-05-30 11:34:54,001] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:34:54,033] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:34:54,139] {logging_mixin.py:115} INFO - [2023-05-30 11:34:54,139] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:34:54,173] {logging_mixin.py:115} INFO - [2023-05-30 11:34:54,172] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:34:54,196] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.208 seconds
+[2023-05-30 11:35:24,689] {processor.py:153} INFO - Started process (PID=1098) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:35:24,690] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:35:24,691] {logging_mixin.py:115} INFO - [2023-05-30 11:35:24,691] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:35:24,721] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:35:24,758] {logging_mixin.py:115} INFO - [2023-05-30 11:35:24,758] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:35:24,795] {logging_mixin.py:115} INFO - [2023-05-30 11:35:24,795] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:35:24,817] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.133 seconds
+[2023-05-30 11:35:55,396] {processor.py:153} INFO - Started process (PID=1118) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:35:55,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:35:55,398] {logging_mixin.py:115} INFO - [2023-05-30 11:35:55,397] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:35:55,426] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:35:55,535] {logging_mixin.py:115} INFO - [2023-05-30 11:35:55,535] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:35:55,564] {logging_mixin.py:115} INFO - [2023-05-30 11:35:55,564] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:35:55,583] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.192 seconds
+[2023-05-30 11:36:26,217] {processor.py:153} INFO - Started process (PID=1138) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:36:26,218] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:36:26,219] {logging_mixin.py:115} INFO - [2023-05-30 11:36:26,219] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:36:26,284] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:36:26,403] {logging_mixin.py:115} INFO - [2023-05-30 11:36:26,403] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:36:26,484] {logging_mixin.py:115} INFO - [2023-05-30 11:36:26,484] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:36:26,530] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.318 seconds
+[2023-05-30 11:36:57,223] {processor.py:153} INFO - Started process (PID=1158) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:36:57,226] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:36:57,228] {logging_mixin.py:115} INFO - [2023-05-30 11:36:57,228] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:36:57,274] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:36:57,416] {logging_mixin.py:115} INFO - [2023-05-30 11:36:57,416] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:36:57,480] {logging_mixin.py:115} INFO - [2023-05-30 11:36:57,480] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:36:57,510] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.293 seconds
+[2023-05-30 11:37:27,880] {processor.py:153} INFO - Started process (PID=1178) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:37:27,881] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:37:27,883] {logging_mixin.py:115} INFO - [2023-05-30 11:37:27,882] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:37:27,912] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:37:27,986] {logging_mixin.py:115} INFO - [2023-05-30 11:37:27,985] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:37:28,085] {logging_mixin.py:115} INFO - [2023-05-30 11:37:28,085] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:37:28,110] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.238 seconds
+[2023-05-30 11:37:58,938] {processor.py:153} INFO - Started process (PID=1198) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:37:58,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:37:58,944] {logging_mixin.py:115} INFO - [2023-05-30 11:37:58,944] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:37:59,037] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:37:59,244] {logging_mixin.py:115} INFO - [2023-05-30 11:37:59,244] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:37:59,284] {logging_mixin.py:115} INFO - [2023-05-30 11:37:59,284] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:37:59,316] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.392 seconds
+[2023-05-30 11:38:29,723] {processor.py:153} INFO - Started process (PID=1218) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:38:29,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:38:29,726] {logging_mixin.py:115} INFO - [2023-05-30 11:38:29,725] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:38:29,771] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:38:29,797] {logging_mixin.py:115} INFO - [2023-05-30 11:38:29,797] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:38:29,846] {logging_mixin.py:115} INFO - [2023-05-30 11:38:29,845] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:38:29,870] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.153 seconds
+[2023-05-30 11:39:00,299] {processor.py:153} INFO - Started process (PID=1238) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:39:00,300] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:39:00,303] {logging_mixin.py:115} INFO - [2023-05-30 11:39:00,302] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:39:00,361] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:39:00,611] {logging_mixin.py:115} INFO - [2023-05-30 11:39:00,611] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:39:00,664] {logging_mixin.py:115} INFO - [2023-05-30 11:39:00,664] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:39:00,689] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.395 seconds
+[2023-05-30 11:39:30,961] {processor.py:153} INFO - Started process (PID=1258) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:39:30,962] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:39:30,963] {logging_mixin.py:115} INFO - [2023-05-30 11:39:30,963] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:39:31,029] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:39:31,119] {logging_mixin.py:115} INFO - [2023-05-30 11:39:31,119] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:39:31,166] {logging_mixin.py:115} INFO - [2023-05-30 11:39:31,166] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:39:31,189] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.233 seconds
+[2023-05-30 11:40:01,645] {processor.py:153} INFO - Started process (PID=1278) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:40:01,647] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:40:01,649] {logging_mixin.py:115} INFO - [2023-05-30 11:40:01,649] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:40:01,700] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:40:01,847] {logging_mixin.py:115} INFO - [2023-05-30 11:40:01,846] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:40:01,898] {logging_mixin.py:115} INFO - [2023-05-30 11:40:01,898] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:40:01,929] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.291 seconds
+[2023-05-30 11:40:32,299] {processor.py:153} INFO - Started process (PID=1298) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:40:32,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:40:32,302] {logging_mixin.py:115} INFO - [2023-05-30 11:40:32,302] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:40:32,327] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:40:32,385] {logging_mixin.py:115} INFO - [2023-05-30 11:40:32,385] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:40:32,443] {logging_mixin.py:115} INFO - [2023-05-30 11:40:32,443] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:40:32,473] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.182 seconds
+[2023-05-30 11:41:02,866] {processor.py:153} INFO - Started process (PID=1318) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:41:02,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:41:02,869] {logging_mixin.py:115} INFO - [2023-05-30 11:41:02,869] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:41:02,902] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:41:03,077] {logging_mixin.py:115} INFO - [2023-05-30 11:41:03,077] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:41:03,113] {logging_mixin.py:115} INFO - [2023-05-30 11:41:03,113] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:41:03,137] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.275 seconds
+[2023-05-30 11:41:33,474] {processor.py:153} INFO - Started process (PID=1338) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:41:33,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:41:33,480] {logging_mixin.py:115} INFO - [2023-05-30 11:41:33,479] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:41:33,514] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:41:33,561] {logging_mixin.py:115} INFO - [2023-05-30 11:41:33,561] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:41:33,599] {logging_mixin.py:115} INFO - [2023-05-30 11:41:33,599] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:41:33,630] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.161 seconds
+[2023-05-30 11:42:04,046] {processor.py:153} INFO - Started process (PID=1358) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:42:04,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:42:04,059] {logging_mixin.py:115} INFO - [2023-05-30 11:42:04,059] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:42:04,105] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:42:04,407] {logging_mixin.py:115} INFO - [2023-05-30 11:42:04,407] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:42:04,519] {logging_mixin.py:115} INFO - [2023-05-30 11:42:04,519] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:42:04,573] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.534 seconds
+[2023-05-30 11:42:35,023] {processor.py:153} INFO - Started process (PID=1378) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:42:35,024] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:42:35,026] {logging_mixin.py:115} INFO - [2023-05-30 11:42:35,025] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:42:35,052] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:42:35,091] {logging_mixin.py:115} INFO - [2023-05-30 11:42:35,091] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:42:35,130] {logging_mixin.py:115} INFO - [2023-05-30 11:42:35,129] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:42:35,173] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.155 seconds
+[2023-05-30 11:43:05,761] {processor.py:153} INFO - Started process (PID=1398) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:43:05,763] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:43:05,764] {logging_mixin.py:115} INFO - [2023-05-30 11:43:05,764] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:43:05,792] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:43:05,993] {logging_mixin.py:115} INFO - [2023-05-30 11:43:05,993] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:43:06,044] {logging_mixin.py:115} INFO - [2023-05-30 11:43:06,043] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:43:06,070] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.314 seconds
+[2023-05-30 11:43:36,492] {processor.py:153} INFO - Started process (PID=1418) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:43:36,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:43:36,494] {logging_mixin.py:115} INFO - [2023-05-30 11:43:36,493] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:43:36,529] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:43:36,613] {logging_mixin.py:115} INFO - [2023-05-30 11:43:36,613] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:43:36,679] {logging_mixin.py:115} INFO - [2023-05-30 11:43:36,679] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:43:36,703] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.217 seconds
+[2023-05-30 11:44:07,090] {processor.py:153} INFO - Started process (PID=1438) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:44:07,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:44:07,094] {logging_mixin.py:115} INFO - [2023-05-30 11:44:07,093] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:44:07,159] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:44:07,313] {logging_mixin.py:115} INFO - [2023-05-30 11:44:07,313] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:44:07,348] {logging_mixin.py:115} INFO - [2023-05-30 11:44:07,347] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:44:07,376] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.291 seconds
+[2023-05-30 11:44:37,743] {processor.py:153} INFO - Started process (PID=1458) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:44:37,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:44:37,745] {logging_mixin.py:115} INFO - [2023-05-30 11:44:37,745] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:44:37,791] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:44:37,850] {logging_mixin.py:115} INFO - [2023-05-30 11:44:37,850] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:44:37,903] {logging_mixin.py:115} INFO - [2023-05-30 11:44:37,903] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:44:37,928] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.191 seconds
+[2023-05-30 11:45:08,540] {processor.py:153} INFO - Started process (PID=1478) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:45:08,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:45:08,543] {logging_mixin.py:115} INFO - [2023-05-30 11:45:08,543] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:45:08,623] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:45:08,758] {logging_mixin.py:115} INFO - [2023-05-30 11:45:08,758] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:45:08,820] {logging_mixin.py:115} INFO - [2023-05-30 11:45:08,820] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:45:08,855] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.320 seconds
+[2023-05-30 11:45:39,318] {processor.py:153} INFO - Started process (PID=1498) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:45:39,319] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:45:39,321] {logging_mixin.py:115} INFO - [2023-05-30 11:45:39,321] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:45:39,358] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:45:39,444] {logging_mixin.py:115} INFO - [2023-05-30 11:45:39,444] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:45:39,552] {logging_mixin.py:115} INFO - [2023-05-30 11:45:39,551] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:45:39,603] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.291 seconds
+[2023-05-30 11:46:10,127] {processor.py:153} INFO - Started process (PID=1518) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:46:10,129] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:46:10,138] {logging_mixin.py:115} INFO - [2023-05-30 11:46:10,138] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:46:10,193] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:46:10,358] {logging_mixin.py:115} INFO - [2023-05-30 11:46:10,358] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:46:10,398] {logging_mixin.py:115} INFO - [2023-05-30 11:46:10,398] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:46:10,424] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.303 seconds
+[2023-05-30 11:46:40,553] {processor.py:153} INFO - Started process (PID=1538) to work on /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:46:40,559] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py for tasks to queue
+[2023-05-30 11:46:40,560] {logging_mixin.py:115} INFO - [2023-05-30 11:46:40,560] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:46:40,673] {processor.py:651} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py
+[2023-05-30 11:46:40,815] {logging_mixin.py:115} INFO - [2023-05-30 11:46:40,814] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-05-30 11:46:40,899] {logging_mixin.py:115} INFO - [2023-05-30 11:46:40,898] {dag.py:2919} INFO - Setting next_dagrun for my_dag to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-05-30 11:46:40,940] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/test-checkpoint.py took 0.394 seconds
