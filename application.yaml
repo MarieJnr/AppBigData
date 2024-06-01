@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/MarieJnr/appbigdataKubernertes.git
+    repoURL: https://github.com/MarieJnr/AppBigData.git
     targetRevision: HEAD
     path: deployments
   destination:
