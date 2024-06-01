@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: C:\Windows\System32\kompose.exe convert -f docker-compose.yml
+    kompose.version: 1.24.0 (7c629530)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: hive-server
+  name: hive-server
+spec:
+  ports:
+    - name: "10000"
+      port: 10000
+      targetPort: 10000
+  selector:
+    io.kompose.service: hive-server

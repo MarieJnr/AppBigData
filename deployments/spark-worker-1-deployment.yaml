@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: C:\Windows\System32\kompose.exe convert -f docker-compose.yml
+    kompose.version: 1.24.0 (7c629530)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: spark-worker-1
+  name: spark-worker-1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: spark-worker-1
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: C:\Windows\System32\kompose.exe convert -f docker-compose.yml
+        kompose.version: 1.24.0 (7c629530)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: spark-worker-1
+    spec:
+      containers:
+        - env:
+            - name: CORE_CONF_fs_defaultFS
+              value: hdfs://namenode:9000
+            - name: SPARK_MASTER
+              value: spark://spark-master:7077
+          image: bde2020/spark-worker:3.0.0-hadoop3.2
+          name: spark-worker-1
+          ports:
+            - containerPort: 8081
+          resources: {}
+      restartPolicy: Always
+status: {}

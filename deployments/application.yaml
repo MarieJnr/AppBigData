@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/MarieJnr/appbigdataKubernertes.git
     targetRevision: HEAD
-    path: deployments
+    path: ./
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
