@@ -24,9 +24,9 @@ spec:
               value: "8088"
             - name: SECRET_KEY
               valueFrom:
-                secretKeyRef:
-                  name: superset-secret
-                  key: SECRET_KEY
+                configMapKeyRef:
+                  name: env
+                  key: SUPERSET_SECRET_KEY
             - name: FLASK_ENV
               value: "development"  # Changez en "production" dans un environnement de production
             - name: PYTHONUNBUFFERED
