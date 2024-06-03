@@ -28,16 +28,17 @@ spec:
             - name: SPARK_MASTER
               value: spark://spark-master:7077
             - name: JUPYTER_PORT
-              value: "8888"  # Assurez-vous que c'est un string de numéro uniquement.
+              value: "8888"
           image: jupyter/pyspark-notebook:latest
           name: jupyter
           ports:
             - containerPort: 8888
           volumeMounts:
             - mountPath: /home/jovyan/work
-              name: jupyter-claim0
-      restartPolicy: Always
+              name: notebooks-volume
       volumes:
-        - name: jupyter-claim0
-          persistentVolumeClaim:
-            claimName: jupyter-claim0
+        - name: notebooks-volume
+          hostPath:
+            path: /mnt/notebooks
+            type: Directory
+  restartPolicy: Always
