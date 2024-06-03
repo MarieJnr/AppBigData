@@ -1,1 +1,1 @@
-SECRET_KEY = 'ySk5B2Jbtt34OMjykpFGBroIdHugigcCZSq4EE3Erko='
+SECRET_KEY = '^7&OEu+%97B?'
